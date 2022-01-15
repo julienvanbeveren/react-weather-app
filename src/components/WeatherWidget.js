@@ -63,7 +63,7 @@ function WeatherWidget(props) {
         let newTemperature = temperature - 272.15;
         newTemperature = newTemperature.toString();
         let temperatureParts = newTemperature.split('.');
-        let finalTemperature = temperatureParts[0] + '.' + temperatureParts[1][0] + '°';
+        let finalTemperature = temperatureParts[0] + '°';
         return finalTemperature;
     }
 

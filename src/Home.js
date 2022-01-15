@@ -10,7 +10,7 @@ function Home() {
       <WeatherWidget city={'Sidney'}/>
       <WeatherWidget city={'New York'}/>
       <WeatherWidget city={'London'}/>
-      <WeatherWidget city={'Russia'}/>
+      <WeatherWidget city={'Dakhla'}/>
     </div>
   );
 }
